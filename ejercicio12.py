@@ -1,0 +1,6 @@
+pan = int(input("ingrese el número de barras vendidas que no son del día  "))
+print("El precio habitual del pan es 3.49 euros")
+print("El descuento por no ser del día es del 60%")
+ganancia = pan * (3.49 * 0.6) 
+ganancia1 = round(ganancia,2)
+print("La ganancia total es",ganancia1)
